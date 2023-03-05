@@ -1,4 +1,3 @@
-import { MAX_COLS, MAX_ROWS, COUNT_OF_BOMBS } from "../constants/constants";
 import { Cell, CellState, CellValue } from "../types/types";
 import { grabAllAdjacentCells } from './grabAllAdjacentCells';
 

@@ -1,5 +1,5 @@
-import { MAX_COLS, MAX_ROWS, COUNT_OF_BOMBS } from "../constants/constants";
-import { Cell, CellState, CellValue } from "../types/types";
+import { MAX_COLS, MAX_ROWS } from "../constants/constants";
+import { Cell } from "../types/types";
 
 export const grabAllAdjacentCells = (
     cells: Cell[][],
