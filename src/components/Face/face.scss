@@ -1,0 +1,28 @@
+.faces {
+    width: 60px;
+    height: 60px;
+}
+
+.smile{
+    height: 60px;
+    background-image: url('./../../assets/smileFace.png');
+    background-size: 100%;
+}
+
+.oh{
+    height: 60px;
+    background-image: url('./../../assets/ohFace.png');
+    background-size: 100%;
+}
+
+.lost{
+    height: 60px;
+    background-image: url('./../../assets/lostFace.png');
+    background-size: 100%;
+}
+
+.win{
+    height: 60px;
+    background-image: url('./../../assets/wonFace.png');
+    background-size: 100%;
+}

@@ -1,0 +1,76 @@
+.button{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-image: url('./../../assets/cell.png');
+    background-size: 100%;
+
+    &.flagged{
+        background-image: url('./../../assets/flag.png');
+        background-size: 100%;
+    }
+    
+    &.visible{
+    border-color: #7b7b7b;
+    border-width: 1px;
+
+    &.red{
+        // background-color: red;
+        background-image: url('./../../assets/redBomb.png') !important;
+    }
+
+    span {
+        margin-left: 2px;
+        font-size: 12px;
+    }
+
+    &.value-0{
+        background-image: url(../../assets/numb0.png);
+
+    }
+
+    &.value-1{
+        background-image: url(../../assets/numb1.png);
+    }
+
+    &.value-2{
+        background-image: url(../../assets/numb2.png);
+    }
+
+    &.value-3{
+        background-image: url(../../assets/numb3.png);
+    }
+
+    &.value-4{
+        background-image: url(../../assets/numb4.png);
+    }
+
+    &.value-5{
+        background-image: url(../../assets/numb5.png);
+    }
+
+    &.value-6{
+        background-image: url(../../assets/numb6.png);
+    }
+
+    &.value-7{
+        background-image: url(../../assets/numb7.png);
+    }
+
+    &.value-8{
+        background-image: url(../../assets/numb8.png);
+    }
+    &.value-9{
+        background-image: url(../../assets/bomb.png);
+    }
+}
+}
+
+.img-cell{
+    width: 20px;
+}
